@@ -74,6 +74,8 @@ public interface ServerInfo
      */
     boolean sendData(String channel, byte[] data, boolean queue);
 
+    boolean isSupported1_9();
+
     /**
      * Asynchronously gets the current player count on this server.
      *
